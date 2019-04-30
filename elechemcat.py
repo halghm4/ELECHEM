@@ -1,6 +1,7 @@
 from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
 from scipy import stats
+from math import log
 import pandas as pd
 import numpy as np
 import sys
