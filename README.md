@@ -6,6 +6,13 @@ This tools processes electrochemical data exported using NOVA software. The tool
 - Tafal Plot
 - Electrochemical Surface Area (ECSA) Determination
 
+# Requirements
+* Python 2.7 or higher
+* matplotlib
+* Scipy
+* Pandas
+* Numpy
+
 
 # To Use
 Use the input file in the Example folder as a template for an input file then simply
@@ -16,6 +23,11 @@ Note: it is recommened to define the location of the elechemcat.py file in the g
 
 
 # Examples
+Cyclic Voltomogram
 ![CV](Example/plots/CV.png)
+
+KL Plot
 ![KLR](Example/plots/KL-SSvsLSV.png)
+
+Electrochemical Surface Area (ECSA) Determination
 ![ECSA](Example/plots/Sample1-ECSA.png)
